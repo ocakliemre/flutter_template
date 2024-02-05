@@ -1,0 +1,34 @@
+{
+  "common": {
+    "tr": "Türkçe",
+    "en": "İngilizce",
+    "okButtonText" : "Tamam",
+    "backButtonText" : "Geri",
+    "saveButtonText" : "Kaydet",
+    "logoutButtonText" : "Exit"
+  },
+  "authentication": {
+    "extendTheTimeLabelText": "Süreyi Uzat",
+    "exitLabelText": "Çıkış",
+    "counterDialogBodyLabelText": "Oturum süreniz dolmak üzere.\nEk süre ister misiniz?",
+    "sessionExpired": "Oturum süreniz sona erdi. Lütfen tekrar giriş yapınız."
+  },
+  "formValidation" : {
+    "notEmpty": "Bu alan boş olamaz.",
+    "notValid": "Geçersiz bilgi girdiniz."
+  },
+  "login": {
+    "loginButtonLabelText": "Giriş Yap",
+    "rememberMeLabelText": "Beni Hatırla",
+    "settingsLabelText": "Ayarlar",
+    "userNameLabelText": "Kullanıcı Adı",
+    "passwordLabelText": "Şifre",
+    "nameSurnameLabelText": "Ad Soyad",
+    "branchLabelText": "Şube",
+    "userNameTextInputEmpty": "Kullanıcı adınızı giriniz.",
+    "userNameTextInputIncorrect": "Hatalı kullanıcı adı.",
+    "passwordTextInputEmpty" : "Şifrenizi giriniz.",
+    "descriptionLabelText" : "Lütfen Ayarlar menüsünden sunucu parametrelerini tanımlayınız."
+
+  }
+}

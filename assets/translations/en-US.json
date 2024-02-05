@@ -1,0 +1,33 @@
+{
+  "common": {
+    "tr": "Turkish",
+    "en": "English",
+    "okButtonText" : "Ok",
+    "backButtonText" : "Back",
+    "saveButtonText" : "Save",
+    "logoutButtonText" : "Exit"
+  },
+  "authentication": {
+    "extendTheTimeLabelText": "Extend Session Time",
+    "exitLabelText": "Exit",
+    "counterDialogBodyLabelText": "Your session is about to expire.\nWould you like additional time?",
+    "sessionExpired": "Your session has expired. Please log in again."
+  },
+  "formValidation" : {
+    "notEmpty": "This field cannot be empty.",
+    "notValid": "You entered invalid information."
+  },
+  "login": {
+    "loginButtonLabelText": "Login",
+    "rememberMeLabelText": "Remember Me",
+    "settingsLabelText": "Settings",
+    "userNameLabelText": "Username",
+    "passwordLabelText": "Password",
+    "nameSurnameLabelText": "Name Surname",
+    "branchLabelText": "Branch",
+    "userNameTextInputEmpty": "Enter your username.",
+    "userNameTextInputIncorrect": "Incorrect username.",
+    "passwordTextInputEmpty" : "Enter your password.",
+    "descriptionLabelText" : "Please define the server parameters from the settings menu."
+  }
+}
