@@ -1,4 +1,4 @@
-import 'package:hive_flutter/adapters.dart';
+import 'package:hive_flutter/hive_flutter.dart';
 import 'package:json_annotation/json_annotation.dart';
 import '../../../core/base/model/base_model.dart';
 import '../../../core/cache/hive/constants/hive_constants.dart';

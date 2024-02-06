@@ -25,7 +25,7 @@ class UserRepository extends IUserService {
 
   @override
   Future<void> updateUserFcmId({required int userId, required String fcmId}) async {
-    if (false/*AppConstants.appMode == AppMode.release*/) {
+    if (AppConstants.appMode == AppMode.release) {
       return await _userService.updateUserFcmId(userId: userId, fcmId:fcmId);
     } else {
       return await _userMockService.updateUserFcmId(userId: userId, fcmId:fcmId);

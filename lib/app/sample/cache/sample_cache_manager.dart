@@ -1,7 +1,8 @@
-import 'package:flutter_template/app/sample/model/sample_model.dart';
 import 'package:hive_flutter/hive_flutter.dart';
+import '../model/sample_model.dart';
 import '../../../core/cache/hive/constants/hive_constants.dart';
 import '../../../core/cache/hive/interface/ICacheManager.dart';
+
 
 class SampleCacheManager extends ICacheManager<SampleModel> {
   SampleCacheManager(super.key);
@@ -15,7 +16,7 @@ class SampleCacheManager extends ICacheManager<SampleModel> {
   @override
   void registerAdapters() {
     if (!Hive.isAdapterRegistered(HiveConstants.sampleModelId)) {
-      Hive.registerAdapter(SampleModelModelAdapter());
+      Hive.registerAdapter(SampleModelAdapter());
     }
   }
 }
