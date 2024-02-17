@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 class ColorConstants {
@@ -44,19 +43,4 @@ class ColorConstants {
   static const Color whiteLilac = Color(0xfff6f7fb);
   static const Color selago = Color(0xfffbfbfe);
   static const Color stratos = Color(0xff03014a);
-}
-
-class UserStaticstisColor {
-  static const List<Color> colorList = [
-    Color(0xd2b7e65b),
-    Color(0xffed4f81),
-    Color(0xff933af2),
-    Color(0xff4f9fed),
-    Color(0xffdfff1c),
-  ];
-
-  static Color getNextColor({required int elementIndex}) {
-    final result = colorList[elementIndex % colorList.length];
-    return result;
-  }
 }

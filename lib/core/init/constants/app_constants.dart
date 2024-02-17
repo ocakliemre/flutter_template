@@ -2,8 +2,8 @@ import '../../enums/app_enums.dart';
 
 class AppConstants {
   ///App
-  static const appName = "Printflow";
-  static const packageName = "com.ptt.deliverytracking";
+  static const appName = "Flutter Template";
+  static const packageName = "com.flutter.template";
   static const localizationAssetPath = "assets/translations";
 
   static AppPlatform appPlatform = AppPlatform.other.appPlatform;
