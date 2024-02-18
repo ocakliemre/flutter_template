@@ -45,7 +45,7 @@ class _SplashViewState extends State<SplashView> with LoggerViewMixin {
           margin: EdgeInsets.all(context.dynamicWidth(0.1)),
           decoration: const BoxDecoration(
             image: DecorationImage(
-                image: AssetImage(AssetConstants.printflowLogo)),
+                image: AssetImage(AssetConstants.appLogo)),
           ),
         ),
       );

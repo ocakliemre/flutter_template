@@ -87,7 +87,7 @@ class _LoginViewState extends State<LoginView>
                       flex: 3,
                       child: buildPrintflowLogo(
                         context: context,
-                        image: const AssetImage(AssetConstants.printflowLogo),
+                        image: const AssetImage(AssetConstants.appLogo),
                       ),
                     ),
                     Expanded(
